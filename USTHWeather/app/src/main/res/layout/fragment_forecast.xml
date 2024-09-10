@@ -35,49 +35,52 @@
                 android:contentDescription="Refresh"
                 android:layout_marginRight="30dp"
                 android:src="@drawable/wt6"
-                app:tint="@color/black">
+                app:tint="@color/black"
+                android:background="@null"
+                android:gravity="center">
             </ImageButton>
 
             <ImageButton
                 android:layout_width="40dp"
                 android:layout_height="70dp"
                 android:contentDescription="Setting"
+                android:background="@null"
                 android:src="@drawable/wt8">
             </ImageButton>
         </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:background="#200000FF"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_marginTop="4dp">
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Mon"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:contentDescription="Sunny"
+                android:src="@drawable/wt9" />
+
+            <TextView
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp"
-                android:background="#200000FF"
-                android:orientation="horizontal"
-                android:padding="8dp"
-                android:layout_marginTop="4dp">
-                <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:text="Mon"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp" />
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:contentDescription="Sunny"
-                    android:src="@drawable/wt9" />
-
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="Sunny\n30 – 33°C"
-                    android:textColor="@android:color/black"
-                    android:textSize="15sp" />
-            </LinearLayout>
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sunny\n30 – 33°C"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -27,6 +27,9 @@ public class WeatherActivity extends AppCompatActivity {
 
         ForecastFragment firstFragment = new ForecastFragment();
         getSupportFragmentManager().beginTransaction().add(R.id.frame, firstFragment).commit();
+
+        WeatherFragment secondFragment = new WeatherFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.frame, secondFragment).commit();
     }
 
     @Override
