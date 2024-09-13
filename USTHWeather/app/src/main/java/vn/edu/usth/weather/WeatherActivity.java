@@ -2,16 +2,19 @@ package vn.edu.usth.weather;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TableLayout;
+
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import vn.edu.usth.weather.ForecastFragment;
+import androidx.viewpager.widget.ViewPager;
 
 public class WeatherActivity extends AppCompatActivity {
 
     private static final String TAG = "WeatherActivity";
+    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,12 +27,9 @@ public class WeatherActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
-        ForecastFragment firstFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.frame, firstFragment).commit();
-
-        WeatherFragment secondFragment = new WeatherFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.frame, secondFragment).commit();
+        viewPager = findViewById(R.id.view_pager);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this.getSupportFragmentManager());
+        viewPager.setAdapter(viewPagerAdapter);
     }
 
     @Override
