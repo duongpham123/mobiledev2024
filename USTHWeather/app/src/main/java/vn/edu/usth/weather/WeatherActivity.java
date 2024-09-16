@@ -9,12 +9,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager2.widget.ViewPager2;
+
+import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.tabs.TabLayoutMediator;
 
 public class WeatherActivity extends AppCompatActivity {
 
     private static final String TAG = "WeatherActivity";
-    private ViewPager viewPager;
+    private ViewPager2 viewPager2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +30,24 @@ public class WeatherActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        viewPager = findViewById(R.id.view_pager);
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this.getSupportFragmentManager());
-        viewPager.setAdapter(viewPagerAdapter);
+        viewPager2 = findViewById(R.id.view_pager2);
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this.getSupportFragmentManager(),getLifecycle());
+        viewPager2.setAdapter(viewPagerAdapter);
+
+        TabLayout tabLayout = findViewById(R.id.tabLayout);
+        new TabLayoutMediator(tabLayout, viewPager2, (tab, position) -> {
+            switch (position){
+                case 0 :
+                    tab.setText("Paris");
+                    break;
+                case 1 :
+                    tab.setText("Hanoi");
+                    break;
+                case 2 :
+                    tab.setText("HoChiMinh-city");
+                    break;
+            }
+        }).attach();
     }
 
     @Override
