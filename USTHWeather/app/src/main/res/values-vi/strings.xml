@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">USTH Thời tiết</string>
+    <string name="action_settings">Cài đặt</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Đoạn đầu tiên</string>
+    <string name="second_fragment_label">Mảnh thứ hai</string>
+    <string name="next">Kế tiếp</string>
+    <string name="previous">Trước</string>
+
+    <string name="lorem_ipsum">Khách hàng rất quan trọng, khách hàng sẽ được khách hàng theo đuổi. Đối với món salad sô cô la. Maurice
+        cuộc đời, nỗi đau đôi khi lấn át, nỗi đau tiếng cười cần đọc, hãy để nó là thật nhiều bất động sản
+        Tôi thậm chí còn không cười. Maecenas không phải là thành viên ngoại trừ, hoặc người ta nói như vậy. Lớp học có xu hướng im lặng và thân thiện
+        họ xoay chuyển bờ biển thông qua cuộc hôn nhân của chúng tôi, thông qua các dự án màng trinh của chúng tôi. Thật đáng ngưỡng mộ cho thanh thiếu niên
+        diam, hoặc rutrum Tellus vulputate quis Một số người cần xe buýt miễn phí, tài trợ cho các cầu thủ từ
+        để trang trí từ Nhưng CNN giống như một chính sách cổng thông tin miễn phí. Ở lại quốc gia nói trên.\n\n
+        Đôi khi massage được thực hiện trước. Một số thậm chí không có một khóa học. Đó là một công thức tuyệt vời cho bệnh tật. chúng tôi sống
+        nhu cầu, đó là vấn đề cần thiết, những cầu thủ xấu xí nhắm vào anh ta, nhưng trong nỗi đau nói lên vùng
+        cũng không Đó là một căn bệnh của trái đất, và protein giống như một món salad, và mục tiêu là mục tiêu. Đôi khi nó được mong đợi
+        cơn đói và trước mặt anh là cơn đau đầu tiên trong cổ họng. Curabitur et eros porttitor, ultricies urna vitae,
+        lương Con thuyền có lợi cho bạn chứ không phải chiếc xe tải. Nhưng người hâm mộ lớn nhất không phải là nỗi đau
+        anh ấy cần uống nước hoặc làm bài tập về nhà.\n\n
+        Nhưng đôi khi kẻ vặn vẹo nibh, trong mũi tên có người cười nhẹ. Trò chuyện với sự căm ghét của tôi, hãy để nó là một câu chuyện
+        nhưng tác giả lại mềm mại, không xấu xí. Không có thử nghiệm miễn phí, cho mục đích lâm sàng hoặc
+        nhân viên hơn Fusce tâng bốc không chút tin cậy, người quan tâm thoải mái và dễ dàng. Hoàn thành
+        thỉnh thoảng là luật pháp, và nỗi sợ hãi về sự lên men của chức vụ. Giường của giường, anh nói
+        Lacinia sẽ vui, buồn biết bao. Ngày mai tôi sẽ cho bạn kết quả. Đăng ký ngay bây giờ
+        đặt nó vào hộp, nhưng Đó là một trận bóng rổ tuyệt vời, trong tang tóc. Nhưng từ những đứa trẻ
+        là.\n\n
+        Aenean muốn bây giờ, nhưng Lacinia buồn, nhưng không có phim hoạt hình bóng rổ. Kể cả từ một cuốn sách bị đầu độc.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nula, id elementum leo dui
+        không phải internet. Kỳ thật tác giả sòng bài rất mềm yếu. Mỗi yếu tố của bóng đá miễn phí đều thuận tiện. TRONG
+        eros nisl, đầu tư hoặc đầu tư và sô cô la từ mauris. Trẻ con bây giờ đã khác rồi
+        ai đầu tư tiền vào nền kinh tế và Nó có hai mục đích lâm sàng và chịu trách nhiệm phát triển. Nhưng không phải phim hoạt hình
+        rất Bây giờ, ai muốn quảng cáo, tổ chức một khóa học và trở thành nhân viên. Căn bệnh sẽ theo anh, một
+        đặt đường kính. Ngay cả dignissim convallis vulputate. Đó là một điều thú vị để làm với phần cuối
+        thung lũng.\n\n
+        Thuyền trên xe tải của tôi. Con cái sống trong tuổi già và cháu chắt
+        nạn đói và nhu cầu xấu dự kiến. Trong sự nghiệp cung tên là ngòi nổ của mũi tên, ở phần cuối của khối
+        có thai Những đứa trẻ của khu vực đó của bệnh viện. Nó đã được nói đầy đủ, nhưng máy tính được tạo ra,
+        Anh ta sẽ được theo đuổi một cách tự do, trong những chiếc nisls mềm mại nhưng không phải là nislis. Cho đến khi hạ sĩ vĩ đại nhất
+        thành viên Đã đến lúc uống đất nước chứ không phải đất nước. Trong một bộ bài không có cho đến CNN
+        miễn phí hay bây giờ là kết quả, ai là nisl eleifend Ngày mai chúng ta phải uống nước tang chính đáng
+        tiền sảnh Fusce đã nói với libero rằng ai là người vĩ đại nhất, người xứng đáng nhất trong sự nghiệp của đời anh ấy.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Xin chào mảnh trống</string>
+    <string name="mon">Thứ 2</string >
+    <string name="usth_weather">USTH Thời Tiết</string>
+    <string name="refresh">Làm Mới</string>
+    <string name="setting">Cài Đặt</string>
+    <string name="_12c_cloudy">12C-Nhiều Mây</string>
+    <string name="paris">Pháp</string>
+    <string name="sunny">Nắng</string>
+    <string name="sunny_n30_33_c">Nắng\n30 – 33°C</string>
+    <string name="tue">Thứ 3</string>
+    <string name="windy">Gió to</string>
+    <string name="windy_n13_17_c">Gió to\n13 – 17°C</string>
+    <string name="wed">Thứ 4</string>
+    <string name="cloudy">Nhiều mây</string>
+    <string name="cloudy_n15_20_c">Nhiều mây\n15 – 20°C</string>
+    <string name="thu">Thứ 5</string>
+    <string name="rainy">Mưa</string>
+    <string name="rainy_n22_28_c">Mưa\n22 – 28°C</string>
+    <string name="fri">Thứ 6</string>
+    <string name="stormy">Bão</string>
+    <string name="stormy_n15_17_c">Bão\n15 – 17°C</string>
+    <string name="sat">Thứ 7</string>
+    <string name="partly_cloudy">Có Mây</string>
+    <string name="partly_cloudy_n20_22_c">Có mây\n20 – 22°C</string>
+    <string name="sun">Chủ nhật</string>
+    <string name="tornado">Bão</string>
+    <string name="tornado_n10_18_c">Lốc xoáy\n10 – 18°C</string>
+    <string name="_20c_tornado">20C-Bão</string>
+    <string name="hochiminh_city">HoChiMinh_city</string>
+    <string name="_8c_rainy">8C-Mưa</string>
+    <string name="hanoi">Hà Nội</string>
+</resources>

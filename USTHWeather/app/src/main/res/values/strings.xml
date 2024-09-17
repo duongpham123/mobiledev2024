@@ -45,4 +45,35 @@
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mon">Mon</string>
+    <string name="Mon" />
+    <string name="usth_weather">USTH Weather</string>
+    <string name="refresh">Refresh</string>
+    <string name="setting">Setting</string>
+    <string name="_12c_cloudy">12C-Cloudy</string>
+    <string name="paris">Paris</string>
+    <string name="sunny">Sunny</string>
+    <string name="sunny_n30_33_c">Sunny\n30 – 33°C</string>
+    <string name="tue">Tue</string>
+    <string name="windy">windy</string>
+    <string name="windy_n13_17_c">Windy\n13 – 17°C</string>
+    <string name="wed">Wed</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="cloudy_n15_20_c">Cloudy\n15 – 20°C</string>
+    <string name="thu">Thu</string>
+    <string name="rainy">Rainy</string>
+    <string name="rainy_n22_28_c">Rainy\n22 – 28°C</string>
+    <string name="fri">Fri</string>
+    <string name="stormy">Stormy</string>
+    <string name="stormy_n15_17_c">Stormy\n15 – 17°C</string>
+    <string name="sat">Sat</string>
+    <string name="partly_cloudy">Partly_cloudy</string>
+    <string name="partly_cloudy_n20_22_c">Partly_cloudy\n20 – 22°C</string>
+    <string name="sun">Sun</string>
+    <string name="tornado">Tornado</string>
+    <string name="tornado_n10_18_c">Tornado\n10 – 18°C</string>
+    <string name="_20c_tornado">20C-Tornado</string>
+    <string name="hochiminh_city">HoChiMinh_city</string>
+    <string name="_8c_rainy">8C-Rainy</string>
+    <string name="hanoi">Hanoi</string>
 </resources>

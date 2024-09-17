@@ -21,14 +21,13 @@
             android:background="?attr/colorPrimary"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:padding="10dp"
-            android:layout_marginTop="80dp">
+            android:padding="10dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="USTH Weather"
-                android:layout_marginRight="80dp"
+                android:text="@string/usth_weather"
+                android:layout_marginEnd="70dp"
                 android:textColor="@color/white"
                 android:textSize="30sp">
             </TextView>
@@ -36,9 +35,9 @@
             <ImageButton
                 android:layout_width="40dp"
                 android:layout_height="70dp"
-                android:contentDescription="Refresh"
+                android:contentDescription="@string/refresh"
                 android:id="@+id/refresh_button_two"
-                android:layout_marginRight="30dp"
+                android:layout_marginEnd="20dp"
                 android:src="@drawable/wt6"
                 app:tint="@color/black"
                 android:background="@null"
@@ -48,7 +47,7 @@
             <ImageButton
                 android:layout_width="40dp"
                 android:layout_height="70dp"
-                android:contentDescription="Setting"
+                android:contentDescription="@string/setting"
                 android:id="@+id/setting_button_two"
                 android:background="@null"
                 android:src="@drawable/wt8">
@@ -76,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="25dp"
                 android:layout_marginTop="20dp"
-                android:text="8C-Rainy"
+                android:text="@string/_8c_rainy"
                 android:textSize="20sp"/>
 
             <TextView
@@ -85,8 +84,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="30dp"
                 android:layout_marginTop="20dp"
-                android:layout_alignParentRight="true"
-                android:text="Hanoi"
+                android:layout_alignParentEnd="true"
+                android:text="@string/hanoi"
                 android:textSize="20sp"/>
         </RelativeLayout>
 
@@ -102,7 +101,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Mon"
+                android:text="@string/mon"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -110,7 +109,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="Sunny"
+                android:contentDescription="@string/sun"
                 android:src="@drawable/wt9" />
 
             <TextView
@@ -118,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Sunny\n30 – 33°C"
+                android:text="@string/sunny_n30_33_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -135,7 +134,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Tue"
+                android:text="@string/tue"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -143,7 +142,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="windy"
+                android:contentDescription="@string/windy"
                 android:src="@drawable/wt7" />
 
             <TextView
@@ -151,7 +150,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Windy\n13 – 17°C"
+                android:text="@string/windy_n13_17_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -168,7 +167,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Wed"
+                android:text="@string/wed"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -176,7 +175,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="Cloudy"
+                android:contentDescription="@string/cloudy"
                 android:src="@drawable/wt1" />
 
             <TextView
@@ -184,7 +183,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Cloudy\n15 – 20°C"
+                android:text="@string/cloudy_n15_20_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -201,7 +200,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Thu"
+                android:text="@string/thu"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -209,7 +208,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="Rainy"
+                android:contentDescription="@string/rainy"
                 android:src="@drawable/wt2" />
 
             <TextView
@@ -217,7 +216,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Rainy\n22 – 28°C"
+                android:text="@string/rainy_n22_28_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -234,7 +233,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Fri"
+                android:text="@string/fri"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -242,7 +241,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="Stormy"
+                android:contentDescription="@string/stormy"
                 android:src="@drawable/wt3" />
 
             <TextView
@@ -250,7 +249,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Stormy\n15 – 17°C"
+                android:text="@string/stormy_n15_17_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -267,7 +266,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Sat"
+                android:text="@string/sat"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -275,7 +274,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="Partly_cloudy"
+                android:contentDescription="@string/partly_cloudy"
                 android:src="@drawable/wt4" />
 
             <TextView
@@ -283,7 +282,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Partly_cloudy\n20 – 22°C"
+                android:text="@string/partly_cloudy_n20_22_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
@@ -300,7 +299,7 @@
                 android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="Sun"
+                android:text="@string/sun"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
 
@@ -308,7 +307,7 @@
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:contentDescription="Tornado"
+                android:contentDescription="@string/tornado"
                 android:src="@drawable/wt5" />
 
             <TextView
@@ -316,7 +315,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Tornado\n10 – 18°C"
+                android:text="@string/tornado_n10_18_c"
                 android:textColor="@android:color/black"
                 android:textSize="15sp" />
         </LinearLayout>
